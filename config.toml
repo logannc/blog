@@ -34,6 +34,7 @@ taxonomies = [
 hyde_links = [
     { url = "/blog/", name = "Blog" },
     { url = "/projects/", name = "Projects" },
+    { url = "https://github.com/logannc", name = "GitHub" },
     { url = "https://resume.logancollins.us", name = "Resume" },
 ]
 # hyde_sticky = false
