@@ -1,0 +1,12 @@
+<div style="display: flex; {% if center %}justify-content: center;{% endif %}">
+    <div style="text-align: center; display: table">
+        <img 
+            src="{{src}}"
+            style="margin-bottom: unset; {% if width %}width: {{width}};{% endif %}{% if height %}height: {{height}};{% endif %}"
+            {% if alt %} title="{{alt}}" {% endif %}
+        />
+        {% if caption %}
+            <div style="display: table-caption; caption-side: bottom; font-style: italic; font-size: 0.75em;">{{caption}}</div>
+        {% endif %}
+    </div>
+</div>

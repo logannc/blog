@@ -1,0 +1,22 @@
+{% extends "hyde/templates/index.html" %}
+
+{% block title %}{{ section.title }}{% endblock title %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+<meta name="author" content="Logan Collins">
+<meta name="description" content="{{section.description}}">
+{% endblock extra_head %}
+
+{% block sidebar_about %}
+{% include "sidebar_fragment.html" %}
+{% endblock sidebar_about %}
+
+{% import "macros.html" as macros %}
+
+{% block content %}
+{{ macros::navigator(components=[]) }}
+<div>
+  {{ section.content | safe }}
+</div>
+{% endblock content %}

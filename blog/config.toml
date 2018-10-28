@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.lcspace.net"
+base_url = "https://www.logancollins.us"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,16 +15,25 @@ default_language = "en"
 
 theme = "hyde"
 title = "Logan Collins"
+description = "Software Engineer. Someday, entrepreneur."
 
-check_external_links = true
+# error prone
+# check_external_links = true
+
 generate_rss = true
 
 ignore_content = []
 
-# taxonomies = [] # See https://www.getgutenberg.io/documentation/getting-started/configuration/ for details
+taxonomies = [
+   { name = "tags" },
+   { name = "categories" },
+]
 
 [extra]
 # hyde variables
 hyde_links = [
+    { url = "/blog/", name = "Blog" },
+    { url = "/projects/", name = "Projects" },
     { url = "https://resume.logancollins.us", name = "Resume" },
 ]
+# hyde_sticky = false

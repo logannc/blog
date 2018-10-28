@@ -1,0 +1,10 @@
+{% macro navigator(components) %}
+{% set path = "" %}
+<div class="nav-levels">
+⇝ <a href="/">Home</a>
+{% for level in components %}
+{% set path = path ~ "/" ~ level %}
+⇝ <a href="{{ path }}">{{level}}</a>
+{% endfor %}
+</div>
+{% endmacro navigator %}

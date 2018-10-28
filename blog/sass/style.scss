@@ -1,0 +1,43 @@
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav-item:last-child a {
+    color: #202020;
+}
+
+.sidebar-nav-item:last-child a:hover {
+    color: #fff;
+}
+
+.post-date {
+    margin-top: -.5rem;
+    margin-bottom: auto;
+    font-size: 0.75em;
+}
+
+.post-description {
+    margin-top: -.5rem;
+    font-size: 0.85em;
+}
+
+.sidebar-about h1 {
+    color: #fff;
+    margin-top: inherit;
+    font-family: inherit;
+    font-size: 2rem;
+}
+
+.section-content h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding-top: 1rem;
+}
+
+.nav-levels {
+    padding-bottom: 2rem;
+}
