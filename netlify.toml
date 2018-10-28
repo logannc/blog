@@ -2,5 +2,5 @@
 publish = "public"
 command = "gutenberg build"
 
-[build.environment]
+[context.production.environment]
 GUTENBERG_VERSION = "0.4.2"
