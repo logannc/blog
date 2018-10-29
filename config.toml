@@ -32,6 +32,7 @@ taxonomies = [
 [extra]
 # hyde variables
 hyde_links = [
+    { url = "/about/", name = "About" },
     { url = "/blog/", name = "Blog" },
     { url = "/projects/", name = "Projects" },
     { url = "https://github.com/logannc", name = "GitHub" },
