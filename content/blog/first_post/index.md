@@ -2,7 +2,6 @@
 slug="first-post"
 title = "First Blog Post"
 description = "Wherein I describe how everything works."
-summary = "I don't know what this summary field is for."
 date = 2018-10-18
 in_search_index = true
 render = true
