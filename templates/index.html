@@ -9,21 +9,9 @@
 <script>
   window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
   ga('create', 'UA-128176507-1', 'auto');
-  // Replace the following lines with the plugins you want to use.
-  // ga('require', 'cleanUrlTracker', {
-  //   stripQuery: true,
-  //   trailingSlash: 'remove',
-  // });
-  // ga('require', 'eventTracker', {});
-  // ga('require', 'maxScrollTracker', {});
-  // ga('require', 'outboundLinkTracker', {});
-  // ga('require', 'urlChangeTracker', {});
-  // ga('require', 'pageVisibilityTracker', {sendInitialPageview: false});
-  // using `pageVisibilityTracker` instead
   ga('send', 'pageview');
 </script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
-<!-- <script async src="/js/at.js"></script> -->
 {% endblock extra_head %}
 
 {% block sidebar_about %}
@@ -37,5 +25,4 @@
 <div>
   {{ section.content | safe }}
 </div>
-<!-- {{__tera_context}} -->
 {% endblock content %}
