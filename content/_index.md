@@ -1,5 +1,5 @@
 +++
-title = "Landing Pages! Oh My!"
+title = "Logan Collins"
 description = "Well, you have to land somewhere - might as well be here!"
 in_search_index = true
 render = true
