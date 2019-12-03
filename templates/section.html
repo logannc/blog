@@ -20,7 +20,7 @@
   {{ section.content | safe }}
 </div>
 <div class="posts">
-  {% for page in section.pages | reverse %}
+  {% for page in section.pages %}
     {% if not page.draft %}
       <div class="post">
         <h3 class="post-title">
