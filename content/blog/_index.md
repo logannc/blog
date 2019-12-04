@@ -7,3 +7,5 @@ render = true
 +++
 
 # Blog Entries
+
+The post sort order is broken. I don't know how since the version of Gutenberg I'm using is pinned and it wasn't broken before. Hopefully will be resolved when I migrate to Zola.
