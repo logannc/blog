@@ -35,6 +35,8 @@ Finally, Swift - because it occupies a similar niche as Rust, has some comparabl
 
 Like I said, I'll be trying to do things fairly idiomatic... but, well, I don't know the idioms yet and it might take a while to learn for all of these. So while the solutions for each challnge might not be idiomatic by the end of each day, I'll be going back as I learn more to try to clean things up. Further, I'll be focusing on keeping up with the challenges than perfecting all six solutions each day, so there might be holes until I go back and fill them. For example, on Day 1, I only completed Rust and Swift because we were driving back from where we had Thanksgiving! The Rust turned out fairly well, the Swift was hacked together as quickly as possible with my complete lack of Swift experience.
 
+All code mentioned here is from https://github.com/logannc/adventofcode/. It may or may not match exactly as I will not be updating code sections in posts if I go back to clean things up.
+
 Let's take a look.
 
 ### Day 1 Problem:
